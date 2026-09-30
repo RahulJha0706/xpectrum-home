@@ -1,0 +1,16 @@
+@import '../styles/xpectrum-landing.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* The page is its own full-height scroll container (.xp-landing), as it is
+   inside the app, so the document itself never scrolls. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #0a0826;
+  color: #fff;
+}
